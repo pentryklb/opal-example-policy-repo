@@ -21,7 +21,7 @@ is_store_owner if input.store_uid == groups_store
 is_store_admin if input.store_uid == groups_store
 
 
-groups_store := split_groups(jwt.payload.groups[0])
+groups_store = split_groups(jwt.payload.groups[0])
 resource_access := jwt.payload.resource_access
 
 jwt = { "payload": payload} {
