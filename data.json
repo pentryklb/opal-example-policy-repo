@@ -13,20 +13,6 @@
         "country": "US",
         "ip": "8.8.8.8"
       }
-    },
-    "eve": {
-      "roles": ["customer"],
-      "location": {
-        "country": "US",
-        "ip": "8.8.8.8"
-      }
-    },
-    "pentry": {
-      "roles": ["admin"],
-      "location": {
-        "country": "ID",
-        "ip": "8.8.8.8"
-      }
     }
   },
   "role_permissions": {
