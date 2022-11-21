@@ -1,4 +1,4 @@
-package roles_store
+package app.roles_store
 
 import future.keywords.if
 
