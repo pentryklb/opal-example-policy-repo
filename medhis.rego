@@ -30,7 +30,7 @@ headers = {
     "Accept": "application/json"
 }
 
-records = relationship.data.records
+#records = relationship.data.records
 
 relationship = http.send(
   {
