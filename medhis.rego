@@ -14,7 +14,7 @@ deny["medical history only can be accessed by owner or its relationship"] {
 result = { "messages": msg, "deny" :  denyBool}  {
   msg := {m | m := deny[_]}
   denyBool := count(msg) > 0
-}
+
 
 #check owner
 is_owner if input.uid == jwt.payload.id
